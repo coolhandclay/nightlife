@@ -1,0 +1,31 @@
+{
+  "name": "nightlife-coordination",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-css" : "./bin/build-css",
+    "watch-css" : "./bin/watch-css"
+  },
+  "repository": "",
+  "engines": {
+    "node": "4.5.0",
+    "npm": "2.15.9"
+  },
+  "author": "Clay Andrews <clayandrews13@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "mongoose-auto-increment": "^5.0.1",
+    "node-sass": "^3.10.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
+  }
+}
